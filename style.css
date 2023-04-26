@@ -87,6 +87,9 @@ a:visited,a:link,a:active{
     letter-spacing: 0px;
     color: #00A5EC;
 }
+.cardhead a{
+    color: #00A5EC;
+}
 .cardbody{
     padding: 30px;
 
@@ -112,10 +115,10 @@ a:visited,a:link,a:active{
 }
 .item input{
     width: 30px;
-height: 30px;
-background: #F7F7F7 0% 0% no-repeat padding-box;
-border: 1px solid #EDEDED;
-border-radius: 4px;
+    height: 30px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
 /* appearance:none; */
 }
 .item input:checked{
@@ -183,6 +186,9 @@ width: 180px;
 height: 48px;
 margin-left: auto;
 margin-right: 0;
+}
+.bluebtn a{
+    color:white;
 }
 .cardbody input[type="text"] {
     background: #F7F7F7 0% 0% no-repeat padding-box;
